@@ -1,12 +1,15 @@
-#left {
+img {
+  border: 0px !important;
+}
+
+.left {
   left:-8.33%;
   text-align: left;
   float: left;
   width:50%;
   z-index:-10;
 }
-
-#right {
+.right {
   left:31.25%;
   top: 75px;
   float: right;
@@ -14,3 +17,7 @@
   z-index:-10;
   width:50%;
 }
+
+.reveal section { font-size:0.88em !important; }
+
+
